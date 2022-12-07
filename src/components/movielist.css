@@ -1,0 +1,67 @@
+.movie-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+
+.movie-card{
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.dashboard-container{
+	overflow-y: hidden;
+}
+
+.sort-container{
+	padding: 15px 15px;
+	border-bottom: 1px solid white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.search-container{
+	padding-left: 40px;
+	width: 100%;
+	background-color: rgb(19 35 68);
+}
+
+.search-input{
+	width: 100%;
+	background-color: rgb(19 35 68);
+	outline: none;
+	border: none;
+	height: 60px;
+	padding-left: 40px;
+	padding-right: 20px;
+	color: white;
+	font-size: 24px;
+}
+
+.search-icon {
+	position: absolute;
+    top: 15px;
+    font-size: 30px;
+}
+
+.parent-container{
+	display: flex;
+	flex-direction: row;
+}
+
+.left-container{
+	flex: 0.2;
+	background-color: rgb(15 27 53);
+	height: calc(100vh - 60px);
+	padding-left: 20px;
+	position: sticky;
+	overflow-y: hidden;
+}
+
+.right-container{
+	flex: 0.8;
+}
